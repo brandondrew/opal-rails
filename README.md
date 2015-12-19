@@ -46,7 +46,7 @@ puts "G'day world!" # check the console
 
 ### As a template
 
-You can use it for your views too, it even inherits instance and local variables from actions:
+You can use it for your views too; it even inherits instance and local variables from actions:
 
 ```ruby
 # app/controllers/posts_controller.rb
@@ -68,9 +68,9 @@ Document['.post .comments'].html = comments_html
 ```
 
 
-### As an Haml filter (optional)
+### As a Haml filter (optional)
 
-Of course you need to require `haml-rails` separately since its presence is not assumed
+Of course you need to require `haml-rails` separately since its presence is not assumed.
 
 ```haml
 -# app/views/posts/show.html.haml
@@ -103,7 +103,7 @@ Add a `spec.js` into `assets/javascripts` to require your specs
 // = require_tree ./spec
 ```
 
-and then a spec folder with you specs!
+and then a spec folder with your specs!
 
 ```ruby
 # assets/javascripts/spec/example_spec.js.rb
